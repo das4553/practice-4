@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 20px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+h1 {
+  color: #707070;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+h2 {
+  color: #707070;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.text,
+h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.slide-show {
+  padding: 20px 5%;
+}
+
+.slide-show img {
+  width: 100%;
+}
+
+.for-grid-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(434px, 1fr));
+  gap: 10px;
+}
+h1 {
+  padding: 20px 5%;
+}
+
+article {
+  color: #707070;
+  width: 50vh;
+  height: 40cap;
+  box-shadow: 0px 10px 23px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-images {
+  width: 100%;
+}
+
+.absolute {
+  position: absolute;
+  right: 22px;
+  bottom: 40px;
+}
+
+.absolute a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: bold;
+}
+
+.button-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.btn {
+  border: none;
+  font-size: 30px;
+  color: #707070;
+  cursor: pointer;
+  background: transparent;
+  border-bottom: 1px solid #707070;
+}
+
+footer {
+  background-color: #2e2e2e;
+  color: #707070;
+  width: 100%;
+  margin-top: 40px;
+  height: 20vh;
+  display: grid;
+}
+
+.social-links a {
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer form {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+footer form label {
+  font-size: 20px;
+}
+
+footer form a {
+  color: #707070;
+  text-decoration: none;
+}
